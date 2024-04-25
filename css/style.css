@@ -30,12 +30,12 @@ body{
 .filter{
     display: flex;
     background: rgb(0, 38, 255);
-    
+    width: var(--layout-imagen-width);
 }
 .filter img{
     position: relative;
-    width: var(--layout-imagen-width);
     margin-left: 4vw;
+    width: 9vw;
 }
 .content__information{
     display: grid;
@@ -56,12 +56,22 @@ body{
 .conten__status {
     display: flex;
     background: blue;
-    padding: 2vw;
     margin-top: 6vw;
 }
 .status__savings {
+    display: flex;
+    background: green;
+}
+.status__savings p{
+    margin-left: 2vw;
+}
+.status__savings span{
+    margin-top: 6vw;
+    margin-right: 40vw;
 }
 .status__assets {
+    display: flex;
+    background: rgb(128, 0, 98);
 }
 
 
