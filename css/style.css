@@ -61,17 +61,34 @@ body{
 .status__savings {
     display: flex;
     background: green;
+    flex-direction: column;
+    width: 50%;
+
 }
 .status__savings p{
-    margin-left: 2vw;
+    color: white;
+    font-family: "SF-pro-medium";
 }
 .status__savings span{
-    margin-top: 6vw;
-    margin-right: 40vw;
+    font-size: 25px;
 }
+
+
+
 .status__assets {
+    flex-direction: column;
     display: flex;
     background: rgb(128, 0, 98);
+    width: 50%;
+}
+.status__assets span{
+    font-size: 25px;
+    font-family: "SF-pro-meedium";
+}
+.status__assets p{
+    font-family: "SF-pro-medium";
+    color: white;
+
 }
 
 
