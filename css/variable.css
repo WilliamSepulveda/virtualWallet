@@ -1,0 +1,28 @@
+:root{
+    --color-primary: #00000000;
+}
+
+@font-face {
+    font-family: "SF-pro-bold";
+    src: url(../storage/fonts/SF-Pro-Text-Bold.otf);
+}
+@font-face {
+    font-family: "SF-pro-semi-bold";
+    src: url(../storage/fonts/SF-Pro-Text-Semibold.otf);
+}
+@font-face {
+    font-family: "SF-pro-medium";
+    src: url(../storage/fonts/SF-Pro-Text-Medium.otf);
+}
+@font-face {
+    font-family: "SF-pro-light";
+    src: url(../storage/fonts/SF-Pro-Text-Light.otf);
+}
+@font-face {
+    font-family: "SF-pro-heavy";
+    src: url(../storage/fonts/SF-Pro-Text-Heavy.otf);
+}
+@font-face {
+    font-family: "SF-pro-regular";
+    src: url(../storage/fonts/SF-Pro-Text-Regular.otf);
+}
