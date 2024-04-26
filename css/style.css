@@ -83,8 +83,6 @@ body{
     width: 160px;
     margin-left: 2vw;
 }
-
-
 .status__assets {
     flex-direction: column;
     display: flex;
@@ -95,6 +93,10 @@ body{
 .status__assets span{
     margin-left: 5vw;
     font-size: 25px;
+}
+.status__savings span:hover{
+    transition: 0.8s;
+    width: 2vw;
 }
 .status__assets p{
     font-family: "SF-pro-medium";
@@ -161,8 +163,44 @@ body{
 }
 .transactions {
     border: 2px solid rgb(2, 2, 2);
-
+    display: grid;
 }
+.transactions h3{
+    font-size: 7vw;
+    margin-top: 3vh;
+    font-family: "SF-pro-bold";
+    margin-left: 3vw;
+}
+
+.list__transations {
+    margin-top: 2vh;
+    background: rgb(50, 205, 89);
+    display: flex;
+}
+.list__transations img{
+    position: relative;
+    width: 16vw;
+}
+.list__transations p{
+    flex-direction: row;
+    margin-top: 2vh;
+    font-size: 5vw;
+    font-family: "SF-pro-bold";
+}
+.list__transations span{
+    flex-direction: row;
+    margin-top: 9vh;
+}
+#parrafo2{
+    font-size: 6vw;
+    margin-left: 22vw;
+}
+.list__transations {
+    font-size: 4vw;
+    margin-top: 7vh;
+    margin-left: -15vw;
+}
+
 
 
 
