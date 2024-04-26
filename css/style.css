@@ -129,7 +129,7 @@ body{
     height: 30px;
 }
 .cont__activity{
-    background: red;
+    background: rgb(255, 255, 255);
     display: flex;
     overflow-y: scroll;
     
@@ -138,12 +138,16 @@ body{
     display: grid;
     flex-direction: column;
     margin-top:5vh;
-    /* border: 2px solid rgb(163, 163, 163); */
+    border: 2px solid rgba(219, 212, 212, 0.256);
     background: rgb(255, 255, 255);
     padding: 5vw;
     margin-right: 1vw;
     margin-left: 2vw;
     border-radius: 10%;
+    transition: 1s;
+}
+.container__content:hover{
+    box-shadow: 10px 10px 50px #000000;
 }
 .container__content img{
     width: 60px;
