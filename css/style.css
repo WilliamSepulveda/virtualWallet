@@ -41,7 +41,7 @@ body{
     display: grid;
     background: red;
     margin-top: 10vw;
-    padding: 2vw;
+    
 }
 .content__information h1{
     font-family: "SF-pro-heavy";
@@ -57,38 +57,108 @@ body{
     display: flex;
     background: blue;
     margin-top: 6vw;
+    justify-content: space-between;
 }
 .status__savings {
     display: flex;
+    
     background: green;
     flex-direction: column;
-    width: 50%;
+    width: 47%;
+
 
 }
 .status__savings p{
     color: white;
     font-family: "SF-pro-medium";
+    margin-left: 2vw;
 }
 .status__savings span{
     font-size: 25px;
+    margin-left: 2vw;
 }
-
+.status__savings img{
+    position: relative;
+    margin-top: 2vh;
+    width: 160px;
+    margin-left: 2vw;
+}
 
 
 .status__assets {
     flex-direction: column;
     display: flex;
     background: rgb(128, 0, 98);
-    width: 50%;
+    width: 47%;
+
 }
 .status__assets span{
+    margin-left: 5vw;
     font-size: 25px;
-    font-family: "SF-pro-meedium";
 }
 .status__assets p{
     font-family: "SF-pro-medium";
     color: white;
+    margin-left: 5vw;
+}
+.status__assets img{
+    position: relative;
+    margin-top: 2vh;
+    width: 160px;
+    margin-left: 3vw;
+}
+.section__2 {
+    background: rgb(128, 128, 128);
+    margin-top: 4vh;
+    border-radius: 12vw;
+    height: 80vh;
+}
+.activities {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-layout-padding-t);
+    background: goldenrod;
+    border-radius: 5vw;
+}
+.activities h3{
+
+    margin-top: 3vh;
+    font-size: 7vw;
+    font-family: "SF-pro-bold";
+    background: blue;
+    height: 30px;
+}
+.cont__activity{
+    background: red;
+    display: flex;
+    overflow-y: scroll;
+    
+}
+.container__content {
+    display: grid;
+    flex-direction: column;
+    margin-top:5vh;
+    /* border: 2px solid rgb(163, 163, 163); */
+    background: rgb(255, 255, 255);
+    padding: 5vw;
+    margin-right: 1vw;
+    margin-left: 2vw;
+    border-radius: 10%;
+}
+.container__content img{
+    width: 60px;
+    margin-left: 1.5vw;
+}
+.container__content p{
+    font-size: 4vw;
+    margin-top: 1.8vh;
+    font-family: "SF-pro-semi-bold";
+    text-align: center;
+}
+.transactions {
+    border: 2px solid rgb(2, 2, 2);
 
 }
+
 
 
