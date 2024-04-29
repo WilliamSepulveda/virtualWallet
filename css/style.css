@@ -30,6 +30,7 @@ body{
 }
 .options img{
     margin-top: 3vh;
+    width: 60px;
 }
 .filter{
     display: flex;
