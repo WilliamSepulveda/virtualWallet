@@ -1,0 +1,111 @@
+@import url(variable.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+    background: #ffffff;
+}
+.contenedorp {
+    display: flex;
+    /* background: rgb(3, 3, 3); */
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.section1{
+    display: grid;
+    background: purple;
+    width: 100vw;
+}
+.options {
+    display: flex;
+    /* background: rgb(47, 255, 0); */
+    justify-content: space-between;
+    grid-template-rows: 80vh 20vh;
+    width: 340px;
+}
+.options p{
+    margin-top: 6vh;
+    margin-left: 8vw;
+    font-family: "SF-pro-bold";
+    color: rgb(0, 0, 0);
+ 
+    letter-spacing: 2px;
+}
+.options img{
+    width: 20vw;
+}
+.filter{
+    display: flex;
+    /* background: rgb(0, 38, 255); */
+    width: var(--layout-imagen-width);
+}
+.filter img{
+    filter: invert(100%);
+    position: relative;
+    height: 7vh;
+    margin-top: 4vh;
+    margin-left: 30vw;
+    width: 9vw;
+}
+.investing-tips p{
+    margin-top: 3vh;
+    font-size: 4vh;
+    font-family: "SF-pro-semi-bold";
+    
+}
+.container-pig{
+    display: flex;
+    background: blue;
+    overflow-y: scroll;
+}
+.learn-More{
+    display: flex;
+    background: rgb(101, 25, 25);
+    height: 26vh;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    border-radius: 4vw;
+}
+.learn-More2{
+    display: flex;
+    background: rgb(21, 206, 0);
+    padding: 2vh;
+    border-top-right-radius:14vw;
+    border-bottom-right-radius:14vw;
+    border-top-left-radius:5vw;
+    border-bottom-left-radius:5vw;
+
+}
+.learn-More2 img{
+    width: 30vw;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.learn-More P{
+    margin-top: 3vh;
+    font-size: 6vw;
+    margin-left: 4vw;
+    font-family: "SF-pro-bold";
+    
+}
+.learn-More span{
+    font-family: "SF-pro-regular";
+    margin-left: 4vw;
+    font-size: 4vw;
+}
+.learn-More button{
+    color: white;
+    background: #00DDA3;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 5vw;
+    font-size: 3vw;
+    margin-left: 4vw;
+    margin-top: 2vh;
+    border: none;
+    
+}
