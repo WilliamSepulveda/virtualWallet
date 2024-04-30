@@ -16,7 +16,7 @@ body{
 }
 .section1{
     display: grid;
-    background: purple;
+    /* background: purple; */
     width: 100vw;
 }
 .options {
@@ -58,33 +58,41 @@ body{
 }
 .container-pig{
     display: flex;
-    background: blue;
+    /* background: blue; */
     overflow-x: scroll;
+}
+.dad-learn-More{
+    display: grid;
+    grid-auto-flow: column;
 }
 .learn-More{
     display: flex;
-    background: rgb(226, 13, 13);
-    height: 26vh;
+    background: #f3f0f0;
+    /* border: 3px solid rgb(189, 183, 183); */
+    height: 23vh;   
+    width: 90vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
     border-radius: 4vw;
 }
 .learn-More2{
-    
     display: flex;
-    background: rgb(206, 172, 0);
+    align-items: center;
+    justify-content: center;
+    background: #201443;
     position: relative;
-    padding: 2vh;
-    border-top-right-radius:14vw;
-    border-bottom-right-radius:14vw;
-    border-top-left-radius:5vw;
-    border-bottom-left-radius:5vw;
-
-}
-#pig{
     width: 30vw;
+    border-top-right-radius:0vw;
+    border-bottom-right-radius:16vw;
+    border-top-left-radius:3vw;
+    border-bottom-left-radius:3vw;
+}
+.images{
+    width: 20vw;
+    height: 20vw;
     position: relative;
+
 }
 
 .learn-More P{
@@ -92,7 +100,7 @@ body{
     font-size: 6vw;
     margin-left: 4vw;
     font-family: "SF-pro-bold";
-    
+    margin-top: 5vh;
 }
 .learn-More span{
     font-family: "SF-pro-regular";
@@ -108,6 +116,65 @@ body{
     font-size: 3vw;
     margin-left: 4vw;
     margin-top: 2vh;
-    border: none;
-    
-}   
+    border: none;   
+}
+.x{
+    position: absolute;
+    margin-left: 19vw;
+    top: 0;
+    margin-top: 22vh;
+    width: 10vw;
+}
+.learn-More-cards{
+    display: flex;
+    position: relative;
+    background: #201443;
+    height: 50vh;   
+    width: 60vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    border-radius: 8vw;
+}
+.chips-cards{
+    position: absolute;
+    width: 30px;
+    margin-top: 4vh;
+    margin-left: 6vw;   
+}
+#american-express{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 105px;
+}
+.learn-More-cards p{
+    position: absolute;
+    right: 0;
+    margin-right: 5vw;
+    font-size: 2.5vh;
+    color: white;
+}
+.cost{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+.learn-More-cards span{
+    margin: 0 auto;
+    font-size: 2.5vh;
+    color: white;
+    font-size: 8vw;
+}
+.met-pago{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 8vw;
+    margin-bottom: 4vh;
+}

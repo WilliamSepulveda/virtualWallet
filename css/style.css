@@ -30,7 +30,7 @@ body{
 }
 .options img{
     margin-top: 3vh;
-    width: 60px;
+    width: 65px;
 }
 .filter{
     display: flex;
@@ -39,10 +39,10 @@ body{
     width: var(--layout-imagen-width);
 }
 .filter img{
-    /* background: red; */
-    position: relative;
-    margin-top: 3vh;
-    width: 9vw;
+    position: absolute;
+    
+    margin-top: 6vh;
+    width: 7vw;
 }
 .content__information{
     display: grid;
