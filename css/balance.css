@@ -12,7 +12,6 @@ body{
     display: flex;
     /* background: rgb(3, 3, 3); */
     grid-template-columns: repeat(3,1fr);
-    
 }
 .section1{
     display: grid;
@@ -53,8 +52,7 @@ body{
 .investing-tips p{
     margin-top: 3vh;
     font-size: 4vh;
-    font-family: "SF-pro-semi-bold";
-    
+    font-family: "SF-pro-semi-bold";   
 }
 .container-pig{
     display: flex;
@@ -64,6 +62,8 @@ body{
 .dad-learn-More{
     display: grid;
     grid-auto-flow: column;
+    
+
 }
 .learn-More{
     display: flex;
@@ -80,19 +80,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #201443;
+    background: #352566;
     position: relative;
     width: 30vw;
     border-top-right-radius:0vw;
     border-bottom-right-radius:16vw;
     border-top-left-radius:3vw;
     border-bottom-left-radius:3vw;
+    transition: 1s;
+}
+.learn-More2:hover{
+    width: 50vw;
 }
 .images{
     width: 20vw;
     height: 20vw;
     position: relative;
-
+    
 }
 
 .learn-More P{
@@ -128,13 +132,85 @@ body{
 .learn-More-cards{
     display: flex;
     position: relative;
-    background: #201443;
-    height: 50vh;   
-    width: 60vw;
+    background: #ede902f9;
+    height: 45vh;   
+    width: 55vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
     border-radius: 8vw;
+    overflow: hidden;
+}
+.learn-More-cards2{
+    display: flex;
+    position: relative;
+    background: #3d58ee;
+    height: 45vh;   
+    width: 55vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    border-radius: 8vw;
+    overflow: hidden;
+}
+
+.learn-More-cards3{
+    display: flex;
+    position: relative;
+    background: #a8abab;
+    height: 45vh;   
+    width: 55vw;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+    margin-left: 5vw;
+    border-radius: 8vw;
+    overflow: hidden;
+    margin-bottom: 10vh;
+}
+.learn-More-cards p{
+    position: absolute;
+    right: 0;
+    margin-right: 5vw;
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+}
+.learn-More-cards2 p{
+    position: absolute;
+    right: 0;
+    margin-right: 5vw;
+    font-size: 2.5vh;
+    color: rgb(255, 255, 255);
+}
+.learn-More-cards3 p{
+    position: absolute;
+    right: 0;
+    margin-right: 5vw;
+    font-size: 2.5vh;
+    color: white;
+}
+.learn-More-cards span{
+    margin: 0 auto;
+    font-size: 2.5vh;
+    color: rgb(0, 0, 0);
+    font-size: 8vw;
+}
+.learn-More-cards2 span{
+    margin: 0 auto;
+    font-size: 2.5vh;
+    color: white;
+    font-size: 8vw;
+}
+.learn-More-cards3 span{
+    margin: 0 auto;
+    font-size: 2.5vh;
+    color: white;
+    font-size: 8vw;
+}
+.chips-cards{
+    position: absolute;
+    width: 90px;
+    margin-top: 4vh;
+    margin-left: 6vw;   
 }
 .chips-cards{
     position: absolute;
@@ -142,19 +218,21 @@ body{
     margin-top: 4vh;
     margin-left: 6vw;   
 }
+.fondo{
+    width: 55vw;
+    height: 80vw;
+    position: absolute;
+    border-radius: 2vw;
+    overflow: hidden;
+    
+}
 #american-express{
     position: absolute;
     left: 0;
     bottom: 0;
     width: 105px;
 }
-.learn-More-cards p{
-    position: absolute;
-    right: 0;
-    margin-right: 5vw;
-    font-size: 2.5vh;
-    color: white;
-}
+
 .cost{
     display: flex;
     position: absolute;
@@ -164,12 +242,7 @@ body{
     width: 100%;
     height: 100%;
 }
-.learn-More-cards span{
-    margin: 0 auto;
-    font-size: 2.5vh;
-    color: white;
-    font-size: 8vw;
-}
+
 .met-pago{
     position: absolute;
     bottom: 0;
@@ -177,4 +250,41 @@ body{
     color: white;
     font-size: 8vw;
     margin-bottom: 4vh;
+}
+.footer{
+    background: #201443;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 8vh;
+}
+
+.footer__ul{
+    background: var(--color-4);
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 40px;
+    
+}
+.footer__ul li{
+    display: flex;
+    list-style: none;
+    border-radius: 100%;
+    height: 40px;
+    width: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.footer__ul img{
+    width: 30px;
+    margin-top: 4vh;
+    transition: 0.2S;
+}
+.footer__ul img:hover{
+    box-shadow: 0px 0px 20px;
+    border-radius: 100%;
+    width: 60px;
 }
