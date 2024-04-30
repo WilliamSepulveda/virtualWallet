@@ -18,6 +18,8 @@ body{
     background: #201443;
     z-index: -1;
     width: 100%;
+    border-bottom-left-radius: 20vw;
+    border-bottom-right-radius: 20vw;
 
 }
 #fondo{
@@ -38,12 +40,13 @@ body{
     margin-left: 8vw;
     font-family: "SF-pro-bold";
     color: rgb(255, 255, 255);
- 
+    
     letter-spacing: 2px;
 }
 .options img{
     margin-top: 3vh;
     width: 65px;
+    margin-left: 3vw;
 }
 .filter{
     display: flex;
@@ -52,7 +55,8 @@ body{
     width: var(--layout-imagen-width);
 }
 .filter img{
-    position: absolute;
-    margin-top: 6vh;
-    width: 7vw;
+    position: relative;
+    margin-top: 2vh;
+    width: 8vw;
+    margin-left: -8vw;
 }
