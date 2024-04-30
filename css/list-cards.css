@@ -1,0 +1,58 @@
+@import url(variable.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0;
+}
+body{
+    background: #ffffff;
+}
+.contenedorp {
+    display: flex;
+    /* background: rgb(3, 3, 3); */
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.section1{
+    position: absolute;
+    background: #201443;
+    z-index: -1;
+    width: 100%;
+
+}
+#fondo{
+    position: relative;
+    width: 100%;
+    transform: scale(1.4);
+    height: 20vh;
+}
+.options {
+    display: flex;
+    /* background: rgb(47, 255, 0); */
+    justify-content: space-between;
+    grid-template-rows: 80vh 20vh;
+    width: 340px;
+}
+.options p{
+    margin-top: 6vh;
+    margin-left: 8vw;
+    font-family: "SF-pro-bold";
+    color: rgb(255, 255, 255);
+ 
+    letter-spacing: 2px;
+}
+.options img{
+    margin-top: 3vh;
+    width: 65px;
+}
+.filter{
+    display: flex;
+    margin-left: 40vw;
+    /* background: rgb(0, 38, 255); */
+    width: var(--layout-imagen-width);
+}
+.filter img{
+    position: absolute;
+    margin-top: 6vh;
+    width: 7vw;
+}
