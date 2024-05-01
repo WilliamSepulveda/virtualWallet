@@ -9,30 +9,27 @@ body{
 }
 .contenedorp {
     display: flex;
-    /* background: rgb(3, 3, 3); */
-    grid-template-columns: repeat(3,1fr);
-    
+    /* background: rgb(3, 3, 3); */    
 }
 .section1{
     position: absolute;
     background: #201443;
     z-index: -1;
-    width: 100%;
-    border-bottom-left-radius: 20vw;
-    border-bottom-right-radius: 20vw;
+    width: 100vw;
+    border-bottom-left-radius: 25vw;
+    border-bottom-right-radius: 25vw;
 
 }
 #fondo{
     position: relative;
     width: 100%;
-    transform: scale(1.4);
-    height: 20vh;
+    transform: scale(1.6);
+    height: 21vh;
 }
 .options {
     display: flex;
     /* background: rgb(47, 255, 0); */
     justify-content: space-between;
-    grid-template-rows: 80vh 20vh;
     width: 340px;
 }
 .options p{
@@ -40,7 +37,6 @@ body{
     margin-left: 8vw;
     font-family: "SF-pro-bold";
     color: rgb(255, 255, 255);
-    
     letter-spacing: 2px;
 }
 .options img{
@@ -59,4 +55,69 @@ body{
     margin-top: 2vh;
     width: 8vw;
     margin-left: -8vw;
+}
+.balance{
+    display: grid;
+    background: rgb(0, 0, 0);
+    justify-content: center;
+    width: 15vw;
+    height: 8vh;
+    margin-left: 30vw;
+    border-radius: 200vw;
+    padding: 50px;
+}
+.balance p{
+    position: relative;
+    font-size: 7vw;
+    text-align: center;
+    color: white;
+    margin-top: -25px;
+    font-family: "SF-pro-bold";
+}
+.balance span{
+    position: relative;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    margin-top: 2px;
+    font-family: "SF-pro-bold";
+}
+.botones{
+    display: flex;
+    /* background: green; */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 3vh;
+    height: 5vh;
+}
+.botones button{
+    width: 25vw;
+    border-radius: 5vw;
+    height: 5vh;
+    border: none;
+    font-size: 4vw;
+    transition: 0.3s;
+}
+.botones button:hover{
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+.price{
+    display: flex;
+    background: green;
+    margin-top: 5vh;
+}
+.graphic{
+    display: grid;
+    background: red;
+}
+.graphic__img{
+    display: grid;
+    width: 90vw;
+    margin-left: 5vw;
+    border: 2px solid black;
+}
+.graphic img{
+    width: 90vw;
+    
 }
