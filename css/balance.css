@@ -6,49 +6,29 @@
     box-shadow: 0;
 }
 body{
+    display: flex;
+    flex-direction: column;
     background: #ffffff;
 }
 .contenedorp {
     display: flex;
-    /* background: rgb(3, 3, 3); */
-    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between; 
 }
-.section1{
-    display: grid;
-    /* background: purple; */
-    width: 100vw;
-}
-.options {
-    display: flex;
-    /* background: rgb(47, 255, 0); */
-    justify-content: space-between;
-    grid-template-rows: 80vh 20vh;
-    width: 340px;
-}
-.options p{
-    margin-top: 6vh;
-    margin-left: 8vw;
-    font-family: "SF-pro-bold";
+.contenedorp p {
     color: rgb(0, 0, 0);
- 
-    letter-spacing: 2px;
-}
-.options img{
-    width: 20vw;
+    font-family: "SF-pro-bold";
+    margin-top: 3vh;
 }
 .filter{
-    display: flex;
-    /* background: rgb(0, 38, 255); */
-    width: var(--layout-imagen-width);
+    filter: invert();
 }
-.filter img{
-    filter: invert(100%);
-    position: relative;
-    height: 7vh;
-    margin-top: 4vh;
-    margin-left: 30vw;
-    width: 9vw;
+
+.nova {
+    width: 80px;
 }
+
 .investing-tips p{
     margin-top: 3vh;
     font-size: 4vh;
@@ -56,26 +36,45 @@ body{
 }
 .container-pig{
     display: flex;
-    /* background: blue; */
     overflow-x: scroll;
 }
 .dad-learn-More{
-    display: grid;
-    grid-auto-flow: column;
-    
-
+    display: flex;
+    flex-direction: row;
 }
 .learn-More{
     display: flex;
     background: #f3f0f0;
-    /* border: 3px solid rgb(189, 183, 183); */
-    height: 23vh;   
+    height: 30vh;   
     width: 90vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
     border-radius: 4vw;
 }
+.learn-More P{
+    margin-top: 3vh;
+    font-size: 2rem;
+    margin-left: 4vw;
+    font-family: "SF-pro-bold";
+    margin-top: 5vh;
+}
+.learn-More span{
+    font-family: "SF-pro-regular";
+    margin-left: 4vw;
+    font-size: 2rem;
+}
+.learn-More button{
+    color: white;
+    background: #352566;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 5vw;
+    font-size: 2rem;
+    margin-left: 4vw;
+    border: none;   
+}
+
 .learn-More2{
     display: flex;
     align-items: center;
@@ -88,43 +87,18 @@ body{
     border-top-left-radius:3vw;
     border-bottom-left-radius:3vw;
     transition: 1s;
+
 }
 .learn-More2:hover{
     box-shadow: 0px 0px 20px rgb(63, 167, 110);
     width: 32vw;
 }
 .images{
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     position: relative;
-    
 }
-
-.learn-More P{
-    margin-top: 3vh;
-    font-size: 6vw;
-    margin-left: 4vw;
-    font-family: "SF-pro-bold";
-    margin-top: 5vh;
-}
-.learn-More span{
-    font-family: "SF-pro-regular";
-    margin-left: 4vw;
-    font-size: 4vw;
-}
-.learn-More button{
-    color: white;
-    background: #352566;
-    width: 30vw;
-    height: 6vh;
-    border-radius: 5vw;
-    font-size: 3vw;
-    margin-left: 4vw;
-    margin-top: 2vh;
-    border: none;   
-}
-.x{
-    
+.x{ 
     position: absolute;
     margin-left: 19vw;
     top: 0;
@@ -135,20 +109,21 @@ body{
     display: flex;
     position: relative;
     background: #010101f9;
-    height: 45vh;   
-    width: 55vw;
+    height: 85vh;   
+    width: 30vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
     border-radius: 8vw;
     overflow: hidden;
+    
 }
 .learn-More-cards2{
     display: flex;
     position: relative;
     background: #9845cc;
-    height: 45vh;   
-    width: 55vw;
+    height: 85vh;   
+    width: 30vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
@@ -160,8 +135,8 @@ body{
     display: flex;
     position: relative;
     background: #a8abab;
-    height: 45vh;   
-    width: 55vw;
+    height: 85vh;   
+    width: 30vw;
     margin-bottom: 5vh;
     margin-top: 2vh;
     margin-left: 5vw;
@@ -173,40 +148,37 @@ body{
     position: absolute;
     right: 0;
     margin-right: 5vw;
-    font-size: 2.5vh;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
 }
 .learn-More-cards2 p{
     position: absolute;
     right: 0;
     margin-right: 5vw;
-    font-size: 2.5vh;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
 }
 .learn-More-cards3 p{
     position: absolute;
     right: 0;
     margin-right: 5vw;
-    font-size: 2.5vh;
+    font-size: 1rem;
     color: white;
 }
 .learn-More-cards span{
     margin: 0 auto;
-    font-size: 2.5vh;
     color: rgb(255, 255, 255);
-    font-size: 8vw;
+    font-size: 3rem;
 }
 .learn-More-cards2 span{
     margin: 0 auto;
-    font-size: 2.5vh;
     color: white;
-    font-size: 8vw;
+    font-size: 3rem;
 }
 .learn-More-cards3 span{
     margin: 0 auto;
-    font-size: 2.5vh;
     color: white;
-    font-size: 8vw;
+    font-size: 3rem;
 }
 .chips-cards{
     position: absolute;
@@ -249,7 +221,7 @@ body{
 
 #american-express{
     position: absolute;
-    left: 0;
+    left: 20px;
     bottom: 0;
     width: 105px;
 }
@@ -267,7 +239,7 @@ body{
 .met-pago{
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 35px;
     color: white;
     font-size: 8vw;
     margin-bottom: 4vh;
@@ -308,4 +280,51 @@ body{
     box-shadow: 0px 0px 20px;
     border-radius: 100%;
     width: 60px;
+}
+
+@media (max-width: 767px) {
+    body {
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+    }
+    
+    .learn-More {
+        width: 90vw;
+        height: 18vh;
+    }
+    .learn-More p {
+        font-size: 1rem; 
+    }
+    .learn-More span {
+        font-size: 1rem; 
+    }
+    .learn-More button {
+        width: 25vw;
+        font-size: 0.8rem;
+    }
+    .learn-More-cards  {
+        width: 50vw;
+        height: 45vh;
+
+    }
+    .learn-More-cards2  {
+        width: 50vw;
+        height: 45vh;
+        
+    }
+    .learn-More-cards3  {
+        width: 50vw;
+        height: 45vh;
+        bottom: 5px;
+    }
+    .learn-More-cards span {
+        font-size: 1.5rem;
+    } 
+    .learn-More-cards2 span {
+        font-size: 1.5rem;
+    }  
+    .learn-More-cards3 span {
+        font-size: 1.5rem;
+    }   
 }
